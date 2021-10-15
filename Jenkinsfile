@@ -1,9 +1,9 @@
 pipeline {
     agent any
     stages {
-        stage ("build") {
+        stage ("check") {
             steps {
-            sh 'ls -la'
+            sh '/home/nikita/'
             }
         }
     }
