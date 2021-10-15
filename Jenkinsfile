@@ -23,6 +23,12 @@ pipeline {
                sh 'cd ~'
             }
         }
+        
+           stage ("instal mc") {
+               steps {
+               sh 'sudo apt-get install mc'
+            }
+        }
      }
  }
 
