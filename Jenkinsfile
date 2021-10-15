@@ -1,6 +1,6 @@
 pipline {         
    
-   agent "client"
+   agent any
   
    stages {
   
