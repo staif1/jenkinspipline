@@ -17,6 +17,12 @@ pipeline {
                sh 'ls -la'
             }
         }
+        
+           stage ("cd ~") {
+               steps {
+               sh 'cd ~'
+            }
+        }
      }
  }
 
