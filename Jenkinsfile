@@ -1,14 +1,9 @@
-pipeline {           
-   agent any
-   stages {
-       stage("build")
-           steps {
-              echo 'build application'
-              ls -la
-
-             }
-     
+node("client") {
+    timeout(unit: 'SECONDS', time: 5) {
+        stage("One"){
+            sleep 10
+            echo 'hello'
         }
-
-   }
+    }
+}
 
