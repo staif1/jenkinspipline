@@ -1,17 +1,14 @@
-pipeline {         
-   
+pipeline {           
    agent any
-  
    stages {
-  
-        stage("build")
-  
-             steps {
-                echo 'build application'
-                ls -la
+       stage("build")
+           steps {
+              echo 'build application'
+              ls -la
 
              }
      
          }
 
     }
+}
