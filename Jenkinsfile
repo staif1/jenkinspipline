@@ -11,6 +11,12 @@ pipeline {
                 sh 'pwd'
             }
         }
+        
+        stage ("pwd") {
+            steps {
+            sh 'ls -la'
+            }
+        }
      }
  }
 
