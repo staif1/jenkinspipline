@@ -1,10 +1,12 @@
 pipeline {
-  agent any
-    stages ("build") {
-      steps {
-        sh 'ls -la'
-      }
-   }
+    agent any
+    stages {
+        stage ("build") {
+            steps {
+            sh 'ls -la'
+            }
+        }
+    }
 }
 
 
