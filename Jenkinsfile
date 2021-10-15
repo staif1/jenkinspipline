@@ -1,6 +1,6 @@
 pipline {         
    
-   agent any
+   agent "client"
   
    stages {
   
@@ -8,6 +8,7 @@ pipline {
   
              steps {
                 echo 'build application'
+                ls -la
 
              }
      
