@@ -7,7 +7,7 @@ pipline {
         stage("build")
   
              steps {
-                echo 'build'
+                echo 'build application'
 
              }
      
