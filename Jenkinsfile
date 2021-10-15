@@ -3,12 +3,7 @@ pipeline {
     stages {
         stage ("check") {
             steps {
-            sh 'pwd'
-            }
-        }
-         stage ("check") {
-             steps {
-             sh 'cd /home/nikita'
+            sh 'cd /home/nikita'
             }
         }
     }
