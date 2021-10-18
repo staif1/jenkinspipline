@@ -29,6 +29,16 @@ pipeline {
                sh 'sudo apt-get install mc'
             }
         }
+           stage ("instal tree") {
+                steps {
+                sh 'sudo apt-get install mc'
+            }
+        }
+            stage ("instal mc") {
+               steps {
+               sh 'sudo apt-get install java'
+            }
+        }
      }
  }
 
