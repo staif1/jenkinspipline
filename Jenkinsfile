@@ -31,10 +31,10 @@ pipeline {
         }
            stage ("instal tree") {
                 steps {
-                sh 'sudo apt-get install mc'
+                sh 'sudo apt-get install tree'
             }
         }
-            stage ("instal mc") {
+           stage ("instal Java") {
                steps {
                sh 'sudo apt-get install java'
             }
