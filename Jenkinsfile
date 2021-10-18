@@ -26,7 +26,8 @@ pipeline {
         
            stage ("instal mc") {
                steps {
-               sh 'sudo apt-get install mc -askpass=123qwe123'
+               sh 'sudo -a'
+               sh 'sudo apt-get install mc'
             }
         }
      }
