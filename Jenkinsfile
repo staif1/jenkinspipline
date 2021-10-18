@@ -23,15 +23,10 @@ pipeline {
                sh 'cd ~'
             }
         }
-        
-           stage ("instal mc") {
-               steps {
-               sh 'sudo apt-get install mc'
-            }
-        }
+
            stage ("instal tree") {
-                steps {
-                sh 'sudo apt-get install tree'
+               steps {
+               sh 'sudo apt-get install tree'
             }
         }
            stage ("instal Java") {
