@@ -26,7 +26,6 @@ pipeline {
         
            stage ("instal mc") {
                steps {
-               sh 'sudo -i'
                sh 'sudo apt-get install mc'
             }
         }
