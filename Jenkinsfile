@@ -26,12 +26,12 @@ pipeline {
 
            stage ("instal tree") {
                steps {
-               sh 'sudo apt-get install tree'
+               sh 'sudo apt-get install tree -y'
             }
         }
            stage ("instal Java") {
                steps {
-               sh 'sudo apt-get install java'
+               sh 'sudo apt-get install java -y'
             }
         }
      }
